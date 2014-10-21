@@ -1,4 +1,4 @@
-package com.observer.main;
+package com.observer.main.Observer;
 
 
 import java.lang.reflect.InvocationTargetException;
