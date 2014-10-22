@@ -11,9 +11,10 @@ AddObserver是一款支持android2.2以上的SDK，里面用到了我们熟知�
 #####NotificationCenter
 首先在已经初始化过的类里面添加一个观察者<br>
     //add observer    
-    NotificationCenter.getInstance().addObserver("key", this, "MethodName");     
-其次在第二个类里面可以通过上面的key调用第一个类里面MethodName方法
-        NotificationCenter.getInstance().postNotification("key");       
+    NotificationCenter.getInstance().addObserver("key", this, "MethodName");<br>
+    
+其次在第二个类里面可以通过上面的key调用第一个类里面MethodName方法<br>
+        NotificationCenter.getInstance().postNotification("key");<br>       
 
 
 NotificationCenter   这是添观察者模式最核心的类
