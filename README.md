@@ -8,10 +8,10 @@ AddObserver是一款支持android2.2以上的SDK，里面用到了我们熟知�
 复制Observer文件夹下的类到工程项目中就 OK <br><br><br>
 
 ####开始编码
-######NotificationCenter
+#####NotificationCenter
 首先在已经初始化过的类里面添加一个观察者<br>
-  //add observer
-        NotificationCenter.getInstance().addObserver("key", this, "MethodName");  
+    //add observer    
+    NotificationCenter.getInstance().addObserver("key", this, "MethodName");     
 
 
 NotificationCenter   这是添观察者模式最核心的类
