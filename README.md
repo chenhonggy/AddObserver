@@ -17,7 +17,7 @@ AddObserver是一款支持android2.2以上的SDK，里面用到了我们熟知�
         NotificationCenter.getInstance().postNotification("key");<br><br>   
 
 ####温馨提醒
-        (初始化过的类必须要在第二个类之前，也就是要先添加观察者，才能够调用)
+初始化过的类必须要在第二个类之前，也就是要先添加观察者，才能够调用
 
 
 ####版本
